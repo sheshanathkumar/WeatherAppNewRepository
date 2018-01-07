@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#140CF5"
+    tools:context="com.example.sk.weatherappnew.MainActivity">
+
+    <TextView
+        android:id="@+id/cityText"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Patna, BH"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iconImage"
+        android:layout_below="@+id/cityText"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/weather" />
+
+    <TextView
+        android:id="@+id/tempText"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:text="12 C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:layout_alignTop="@+id/iconImage"
+        android:layout_toRightOf="@+id/iconImage"
+        android:layout_toEndOf="@+id/iconImage"
+        android:layout_marginLeft="43dp"
+        android:layout_marginStart="43dp" />
+
+    <TextView
+
+        android:text="Sunset"
+        android:id="@+id/sunsetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconImage"
+        android:layout_alignLeft="@+id/iconImage"
+        android:layout_alignStart="@+id/iconImage"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:textColor="#fff" />
+
+    <TextView
+
+        android:text="Sunrise"
+        android:id="@+id/sunriseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sunsetText"
+        android:layout_alignLeft="@+id/iconImage"
+        android:layout_alignStart="@+id/iconImage"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:textColor="#fff" />
+
+    <TextView
+
+        android:text="Humidity"
+        android:id="@+id/humidityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sunriseText"
+        android:layout_alignLeft="@+id/iconImage"
+        android:layout_alignStart="@+id/iconImage"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:textColor="#fff" />
+
+    <TextView
+
+        android:text="Pressure"
+        android:id="@+id/pressureText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/humidityText"
+        android:layout_alignLeft="@+id/iconImage"
+        android:layout_alignStart="@+id/iconImage"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:textColor="#fff" />
+
+    <TextView
+
+        android:text="Country"
+        android:id="@+id/countryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pressureText"
+        android:layout_alignLeft="@+id/iconImage"
+        android:layout_alignStart="@+id/iconImage"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:textColor="#fff" />
+
+    <TextView
+
+        android:text="Wind"
+        android:id="@+id/windText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countryText"
+        android:layout_alignLeft="@+id/iconImage"
+        android:layout_alignStart="@+id/iconImage"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:textColor="#fff" />
+
+    <TextView
+
+        android:text="Condition"
+        android:id="@+id/conditionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/windText"
+        android:layout_alignLeft="@+id/iconImage"
+        android:layout_alignStart="@+id/iconImage"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:textColor="#fff" />
+
+    <TextView
+
+        android:text="Last Update"
+        android:id="@+id/lastUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/conditionText"
+        android:layout_alignLeft="@+id/iconImage"
+        android:layout_alignStart="@+id/iconImage"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:textColor="#fff" />
+
+
+
+</RelativeLayout>
